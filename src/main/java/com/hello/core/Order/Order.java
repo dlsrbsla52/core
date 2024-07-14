@@ -58,6 +58,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "order {memberId=" + memberId + ", itemName=" + itemName + ", itemPrice=" + itemPrice + ", discountPrice=" + discountPrice + "}";
     }
 }
