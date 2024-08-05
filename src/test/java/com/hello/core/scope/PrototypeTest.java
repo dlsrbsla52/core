@@ -1,11 +1,11 @@
 package com.hello.core.scope;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import jakarta.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import org.junit.jupiter.api.Assertions;
 import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class PrototypeTest {
 

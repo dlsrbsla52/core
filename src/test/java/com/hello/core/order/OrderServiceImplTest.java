@@ -1,13 +1,12 @@
 package com.hello.core.order;
 
+import org.junit.jupiter.api.Test;
 import com.hello.core.Order.Order;
-import com.hello.core.Order.OrderServiceImpl;
-import com.hello.core.discount.FixDiscountPolicy;
 import com.hello.core.member.Grade;
 import com.hello.core.member.Member;
+import com.hello.core.Order.OrderServiceImpl;
+import com.hello.core.discount.FixDiscountPolicy;
 import com.hello.core.member.MemoryMemberRepository;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 

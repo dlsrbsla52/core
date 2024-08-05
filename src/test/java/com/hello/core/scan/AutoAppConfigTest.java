@@ -1,11 +1,9 @@
 package com.hello.core.scan;
 
+import org.junit.jupiter.api.Test;
 import com.hello.core.AutoAppConfig;
 import com.hello.core.member.MemberService;
 import com.hello.core.member.MemberServiceImpl;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import static org.junit.jupiter.api.Assertions.*;

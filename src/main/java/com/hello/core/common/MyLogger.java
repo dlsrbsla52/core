@@ -1,6 +1,5 @@
 package com.hello.core.common;
 
-
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import lombok.Setter;

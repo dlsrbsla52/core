@@ -1,10 +1,8 @@
 package com.hello.core.lifecycle;
 
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 import lombok.Setter;
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
+import jakarta.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
 
 @Setter
 public class NetworkClient{

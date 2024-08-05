@@ -2,15 +2,13 @@ package com.hello.core.order;
 
 import com.hello.core.AppConfig;
 import com.hello.core.Order.Order;
-import com.hello.core.Order.OrderService;
-import com.hello.core.Order.OrderServiceImpl;
+import org.junit.jupiter.api.Test;
 import com.hello.core.member.Grade;
 import com.hello.core.member.Member;
-import com.hello.core.member.MemberService;
-import com.hello.core.member.MemberServiceImpl;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+import com.hello.core.Order.OrderService;
+import com.hello.core.member.MemberService;
 
 public class OrderServiceTest {
 

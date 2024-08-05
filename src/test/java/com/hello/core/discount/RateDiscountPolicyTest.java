@@ -1,12 +1,11 @@
 package com.hello.core.discount;
 
 import com.hello.core.AppConfig;
+import org.junit.jupiter.api.Test;
 import com.hello.core.member.Grade;
 import com.hello.core.member.Member;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.springframework.stereotype.Component;
 
 import static org.junit.jupiter.api.Assertions.*;

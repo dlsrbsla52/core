@@ -1,18 +1,17 @@
 package com.hello.core.autowired;
 
-import com.hello.core.AutoAppConfig;
-import com.hello.core.discount.DiscountPolicy;
+import org.junit.jupiter.api.Test;
 import com.hello.core.member.Grade;
 import com.hello.core.member.Member;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.hello.core.AutoAppConfig;
+import com.hello.core.discount.DiscountPolicy;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertInstanceOf;
 
 public class AllBeanTest {
 

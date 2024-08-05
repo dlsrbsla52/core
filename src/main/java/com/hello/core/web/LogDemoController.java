@@ -1,12 +1,11 @@
 package com.hello.core.web;
 
 import com.hello.core.common.MyLogger;
-import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.ObjectProvider;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequiredArgsConstructor
@@ -28,7 +27,4 @@ public class LogDemoController {
 
         return "OK";
     }
-
-
 }
-

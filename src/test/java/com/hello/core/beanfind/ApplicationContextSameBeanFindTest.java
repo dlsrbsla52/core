@@ -1,16 +1,14 @@
 package com.hello.core.beanfind;
 
-import com.hello.core.AppConfig;
-import com.hello.core.member.MemberRepository;
-import com.hello.core.member.MemoryMemberRepository;
-import jdk.dynalink.beans.StaticClass;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import com.hello.core.member.MemberRepository;
+import org.springframework.context.annotation.Bean;
+import com.hello.core.member.MemoryMemberRepository;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import java.util.Map;
 
